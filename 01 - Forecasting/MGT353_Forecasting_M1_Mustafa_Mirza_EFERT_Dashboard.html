@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EFERT Demand Planning Control Tower</title>
+<style>
+body {
+    margin: 0;
+    padding: 18px;
+    background: #F6F7FB;
+}
+</style>
+</head>
+<body>
+
+
+<div style="
+    font-family:
+    Inter,
+    ui-sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Arial,
+    sans-serif;
+
+    background:#F6F7FB;
+
+    padding:20px;
+
+    border-radius:7px;
+
+    color:#20233A;
+
+    max-width:1680px;
+
+    margin:auto;
+
+    border:
+    1px solid
+    #D9D6CE;
+">
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<div style="
+    background:#253B80;
+
+    color:white;
+
+    padding:24px 28px;
+
+    border-radius:7px;
+
+    margin-bottom:12px;
+
+    box-shadow:
+    0 6px 18px
+    rgba(37,59,128,0.12);
+">
+
+
+<div style="
+font-size:29px;
+font-weight:800;
+letter-spacing:-0.7px;
+">
+
+EFERT Demand Planning Control Tower
+
+</div>
+
+
+<div style="
+font-size:15px;
+margin-top:5px;
+opacity:0.92;
+">
+
+Engro Urea — 50 kg Bag |
+12-Week Forecasting Intelligence Dashboard
+
+</div>
+
+
+<div style="
+font-size:10px;
+letter-spacing:1.7px;
+font-weight:700;
+margin-top:10px;
+opacity:0.72;
+">
+
+FORECASTING / VALIDATION / DECISION SUPPORT
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SYNTHETIC DATA DISCLOSURE -->
+<!-- ===================================================== -->
+
+<div style="
+    background:#EEF0FF;
+
+    border-left:
+    3px solid
+    #2878F0;
+
+    padding:9px 14px;
+
+    border-radius:6px;
+
+    font-size:11px;
+
+    margin-bottom:16px;
+
+    color:#6D7187;
+">
+
+<b style="
+color:#20233A;
+">
+
+Company-Calibrated Synthetic Dataset for Academic Analysis
+
+</b>
+
+— illustrative figures, calibrated to Engro Fertilizers Limited
+(EFERT)'s disclosed scale, not actual company records.
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- KPI STRIP -->
+<!-- ===================================================== -->
+
+<div style="
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:10px;
+margin-bottom:18px;
+">
+
+
+<!-- FORECAST -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#253B80;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+NEXT 12-WEEK FORECAST
+</div>
+
+<div style="
+font-size:25px;
+font-weight:800;
+">
+11.07M
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+50 kg bags
+</div>
+
+</div>
+
+
+<!-- AVG -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#253B80;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+AVG / WEEK
+</div>
+
+<div style="
+font-size:25px;
+font-weight:800;
+">
+922K
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+bags
+</div>
+
+</div>
+
+
+<!-- PEAK -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#F2B84B;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+PEAK WEEK
+</div>
+
+<div style="
+font-size:25px;
+font-weight:800;
+">
+1.17M
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+05 Jan 2026
+</div>
+
+</div>
+
+
+<!-- MODEL -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#2878F0;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+BEST MODEL
+</div>
+
+<div style="
+font-size:20px;
+font-weight:800;
+color:#2878F0;
+">
+Holt-Winters
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+Holdout WAPE
+6.64%
+</div>
+
+</div>
+
+
+<!-- TRACKING SIGNAL -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#F08A5D;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+TRACKING SIGNAL
+</div>
+
+<div style="
+font-size:25px;
+font-weight:800;
+color:#F08A5D;
+">
+-5.33
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+bias watch
+</div>
+
+</div>
+
+
+<!-- COMMIT -->
+
+<div style="
+background:#FFFFFF;
+padding:14px;
+border-radius:7px;
+border-top:
+2px solid
+#2878F0;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+COMMIT NOW
+</div>
+
+<div style="
+font-size:25px;
+font-weight:800;
+color:#2878F0;
+">
+9.96M
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+">
+bags
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SECTION LABEL -->
+<!-- ===================================================== -->
+
+<div style="
+font-size:10px;
+font-weight:800;
+letter-spacing:1.4px;
+color:#6D7187;
+margin:5px 0 8px 2px;
+">
+
+MODEL VALIDATION • CAN WE TRUST THE FORECAST?
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- ROW 1 -->
+<!-- ===================================================== -->
+
+<div style="
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:14px;
+margin-bottom:14px;
+">
+
+
+<div style="
+background:#FFFFFF;
+padding:6px;
+border-radius:7px;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="460f7974-1392-4c76-9b25-e09b953b1080" class="plotly-graph-div" style="height:410px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("460f7974-1392-4c76-9b25-e09b953b1080")) {                    Plotly.newPlot(                        "460f7974-1392-4c76-9b25-e09b953b1080",                        [{"line":{"color":"#9B9CAE","width":2},"mode":"lines","name":"Training Actual","x":["2023-01-02T00:00:00","2023-01-09T00:00:00","2023-01-16T00:00:00","2023-01-23T00:00:00","2023-01-30T00:00:00","2023-02-06T00:00:00","2023-02-13T00:00:00","2023-02-20T00:00:00","2023-02-27T00:00:00","2023-03-06T00:00:00","2023-03-13T00:00:00","2023-03-20T00:00:00","2023-03-27T00:00:00","2023-04-03T00:00:00","2023-04-10T00:00:00","2023-04-17T00:00:00","2023-04-24T00:00:00","2023-05-01T00:00:00","2023-05-08T00:00:00","2023-05-15T00:00:00","2023-05-22T00:00:00","2023-05-29T00:00:00","2023-06-05T00:00:00","2023-06-12T00:00:00","2023-06-19T00:00:00","2023-06-26T00:00:00","2023-07-03T00:00:00","2023-07-10T00:00:00","2023-07-17T00:00:00","2023-07-24T00:00:00","2023-07-31T00:00:00","2023-08-07T00:00:00","2023-08-14T00:00:00","2023-08-21T00:00:00","2023-08-28T00:00:00","2023-09-04T00:00:00","2023-09-11T00:00:00","2023-09-18T00:00:00","2023-09-25T00:00:00","2023-10-02T00:00:00","2023-10-09T00:00:00","2023-10-16T00:00:00","2023-10-23T00:00:00","2023-10-30T00:00:00","2023-11-06T00:00:00","2023-11-13T00:00:00","2023-11-20T00:00:00","2023-11-27T00:00:00","2023-12-04T00:00:00","2023-12-11T00:00:00","2023-12-18T00:00:00","2023-12-25T00:00:00","2024-01-01T00:00:00","2024-01-08T00:00:00","2024-01-15T00:00:00","2024-01-22T00:00:00","2024-01-29T00:00:00","2024-02-05T00:00:00","2024-02-12T00:00:00","2024-02-19T00:00:00","2024-02-26T00:00:00","2024-03-04T00:00:00","2024-03-11T00:00:00","2024-03-18T00:00:00","2024-03-25T00:00:00","2024-04-01T00:00:00","2024-04-08T00:00:00","2024-04-15T00:00:00","2024-04-22T00:00:00","2024-04-29T00:00:00","2024-05-06T00:00:00","2024-05-13T00:00:00","2024-05-20T00:00:00","2024-05-27T00:00:00","2024-06-03T00:00:00","2024-06-10T00:00:00","2024-06-17T00:00:00","2024-06-24T00:00:00","2024-07-01T00:00:00","2024-07-08T00:00:00","2024-07-15T00:00:00","2024-07-22T00:00:00","2024-07-29T00:00:00","2024-08-05T00:00:00","2024-08-12T00:00:00","2024-08-19T00:00:00","2024-08-26T00:00:00","2024-09-02T00:00:00","2024-09-09T00:00:00","2024-09-16T00:00:00","2024-09-23T00:00:00","2024-09-30T00:00:00","2024-10-07T00:00:00","2024-10-14T00:00:00","2024-10-21T00:00:00","2024-10-28T00:00:00","2024-11-04T00:00:00","2024-11-11T00:00:00","2024-11-18T00:00:00","2024-11-25T00:00:00","2024-12-02T00:00:00","2024-12-09T00:00:00","2024-12-16T00:00:00","2024-12-23T00:00:00","2024-12-30T00:00:00","2025-01-06T00:00:00","2025-01-13T00:00:00","2025-01-20T00:00:00","2025-01-27T00:00:00","2025-02-03T00:00:00","2025-02-10T00:00:00","2025-02-17T00:00:00","2025-02-24T00:00:00","2025-03-03T00:00:00","2025-03-10T00:00:00","2025-03-17T00:00:00","2025-03-24T00:00:00","2025-03-31T00:00:00","2025-04-07T00:00:00","2025-04-14T00:00:00","2025-04-21T00:00:00","2025-04-28T00:00:00","2025-05-05T00:00:00","2025-05-12T00:00:00","2025-05-19T00:00:00","2025-05-26T00:00:00","2025-06-02T00:00:00","2025-06-09T00:00:00","2025-06-16T00:00:00","2025-06-23T00:00:00","2025-06-30T00:00:00","2025-07-07T00:00:00","2025-07-14T00:00:00","2025-07-21T00:00:00","2025-07-28T00:00:00","2025-08-04T00:00:00","2025-08-11T00:00:00","2025-08-18T00:00:00","2025-08-25T00:00:00","2025-09-01T00:00:00","2025-09-08T00:00:00","2025-09-15T00:00:00","2025-09-22T00:00:00","2025-09-29T00:00:00"],"y":[893000,900000,899000,878000,906000,728000,820000,828000,722000,636000,703000,615000,705000,735000,711000,652000,733000,718000,732000,795000,765000,819000,1192000,1047000,1087000,937000,1078000,1017000,1050000,937000,953000,869000,1016000,946000,906000,827000,832000,778000,721000,672000,771000,771000,677000,850000,894000,939000,933000,857000,983000,1027000,886000,1019000,904000,1227000,948000,968000,928000,717000,733000,779000,744000,721000,765000,742000,685000,666000,685000,641000,699000,791000,768000,719000,835000,450000,850000,889000,1097000,962000,781000,1051000,1171000,950000,1043000,1021000,1001000,952000,881000,775000,892000,767000,747000,885000,758000,740000,798000,782000,1154000,1130000,1073000,960000,1054000,999000,1021000,1148000,1206000,1002000,1014000,977000,1095000,816000,620000,842000,900000,741000,763000,700000,793000,717000,782000,738000,768000,755000,863000,770000,808000,788000,1172000,1162000,978000,1043000,791000,1057000,1075000,1163000,1064000,962000,1166000,934000,1035000,772000,989000,829000,919000,822000],"type":"scatter"},{"line":{"color":"#253B80","width":3},"marker":{"size":6},"mode":"lines+markers","name":"Holdout Actual","x":["2025-10-06T00:00:00","2025-10-13T00:00:00","2025-10-20T00:00:00","2025-10-27T00:00:00","2025-11-03T00:00:00","2025-11-10T00:00:00","2025-11-17T00:00:00","2025-11-24T00:00:00","2025-12-01T00:00:00","2025-12-08T00:00:00","2025-12-15T00:00:00","2025-12-22T00:00:00"],"y":[826000,770000,818000,854000,1026000,791000,1022000,1032000,1063000,1138000,1072000,1049000],"type":"scatter"},{"line":{"color":"#2878F0","dash":"dash","width":3},"marker":{"size":6},"mode":"lines+markers","name":"Holdout Forecast","x":["2025-10-06T00:00:00","2025-10-13T00:00:00","2025-10-20T00:00:00","2025-10-27T00:00:00","2025-11-03T00:00:00","2025-11-10T00:00:00","2025-11-17T00:00:00","2025-11-24T00:00:00","2025-12-01T00:00:00","2025-12-08T00:00:00","2025-12-15T00:00:00","2025-12-22T00:00:00"],"y":[835406.5131181593,830275.3518497685,787439.5903820053,897579.259123454,1050468.700755238,1071590.2416637675,1048037.8110169345,960760.359130973,1079219.423798312,1092949.6687332545,1007420.2583070315,1138158.9629557314],"type":"scatter"},{"hoverinfo":"skip","line":{"width":0},"mode":"lines","showlegend":false,"x":["2025-12-29T00:00:00","2026-01-05T00:00:00","2026-01-12T00:00:00","2026-01-19T00:00:00","2026-01-26T00:00:00","2026-02-02T00:00:00","2026-02-09T00:00:00","2026-02-16T00:00:00","2026-02-23T00:00:00","2026-03-02T00:00:00","2026-03-09T00:00:00","2026-03-16T00:00:00"],"y":[1292044.3112759122,1353270.6999035045,1220000.016151172,1210832.9058812573,1248752.335538223,1003312.4684481284,912686.8399197054,1046561.2617842336,1058036.732574896,967220.768343316,1000270.7362321441,956809.9913283746],"type":"scatter"},{"fill":"tonexty","fillcolor":"rgba(40,120,240,0.10)","hoverinfo":"skip","line":{"width":0},"mode":"lines","name":"Empirical Uncertainty Band","x":["2025-12-29T00:00:00","2026-01-05T00:00:00","2026-01-12T00:00:00","2026-01-19T00:00:00","2026-01-26T00:00:00","2026-02-02T00:00:00","2026-02-09T00:00:00","2026-02-16T00:00:00","2026-02-23T00:00:00","2026-03-02T00:00:00","2026-03-09T00:00:00","2026-03-16T00:00:00"],"y":[924862.7299404907,986089.1185680829,852818.4348157506,843651.3245458357,881570.7542028014,636130.887112707,545505.258584284,679379.6804488122,690855.1512394745,600039.1870078946,633089.1548967226,589628.4099929532],"type":"scatter"},{"line":{"color":"#5B4BC4","width":4},"marker":{"size":7},"mode":"lines+markers","name":"Next 12-Week Forecast","x":["2025-12-29T00:00:00","2026-01-05T00:00:00","2026-01-12T00:00:00","2026-01-19T00:00:00","2026-01-26T00:00:00","2026-02-02T00:00:00","2026-02-09T00:00:00","2026-02-16T00:00:00","2026-02-23T00:00:00","2026-03-02T00:00:00","2026-03-09T00:00:00","2026-03-16T00:00:00"],"y":[1108453.5206082014,1169679.9092357936,1036409.2254834613,1027242.1152135464,1065161.544870512,819721.6777804177,729096.0492519947,862970.4711165229,874445.9419071852,783629.9776756053,816679.9455644334,773219.2006606639],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"shapes":[{"line":{"color":"#6D7187","dash":"dot"},"type":"line","x0":"2025-10-06T00:00:00","x1":"2025-10-06T00:00:00","xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#5B4BC4","dash":"dot"},"type":"line","x0":"2025-12-29T00:00:00","x1":"2025-12-29T00:00:00","xref":"x","y0":0,"y1":1,"yref":"y domain"}],"annotations":[{"font":{"color":"#5B4BC4","size":10},"showarrow":false,"text":"Forward plan","x":"2025-12-29T00:00:00","xref":"x","y":1,"yref":"paper","yshift":12}],"title":{"font":{"size":14,"color":"#20233A"},"text":"\u003cb\u003eValidated on the Holdout, Holt-Winters Extends the Next 12 Weeks Forward\u003c\u002fb\u003e"},"font":{"family":"Inter, Arial, sans-serif","color":"#20233A"},"margin":{"l":55,"r":20,"t":72,"b":40},"legend":{"font":{"size":9},"orientation":"h","y":1.15,"x":0},"xaxis":{"title":{"text":"Week"},"gridcolor":"#DDE1EE"},"yaxis":{"title":{"text":"Demand — 50 kg Bags"},"gridcolor":"#DDE1EE"},"height":410,"paper_bgcolor":"#FFFFFF","plot_bgcolor":"#FFFFFF","hovermode":"x unified"},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+
+<div style="
+font-size:9px;
+color:#6D7187;
+padding:0 12px 8px 12px;
+">
+
+Forward shaded range is an empirical validation-error band,
+not a formal statistical prediction interval.
+
+</div>
+
+</div>
+
+
+<div style="
+background:#FFFFFF;
+padding:6px;
+border-radius:7px;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div>                            <div id="2b60ea2e-4c27-44ad-9eda-15dfb5ddb1fa" class="plotly-graph-div" style="height:410px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("2b60ea2e-4c27-44ad-9eda-15dfb5ddb1fa")) {                    Plotly.newPlot(                        "2b60ea2e-4c27-44ad-9eda-15dfb5ddb1fa",                        [{"marker":{"color":["#2878F0","#A9AEC2","#A9AEC2","#A9AEC2","#A9AEC2","#A9AEC2","#A9AEC2"]},"orientation":"h","text":["6.64%","9.41%","13.60%","14.09%","14.28%","14.40%","15.45%"],"textposition":"outside","x":[6.641361030696282,9.405811011255562,13.602575373283706,14.09085225907101,14.27824300661196,14.401950180678021,15.452403804205566],"y":["Holt-Winters","Seasonal Naive","SES α=0.3","Moving Average (4-week)","SES α=0.6","Holt Trend","Naive"],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"font":{"size":14,"color":"#20233A"},"text":"\u003cb\u003eHolt-Winters Earned Trust on Unseen Data\u003c\u002fb\u003e"},"font":{"family":"Inter, Arial, sans-serif","color":"#20233A"},"margin":{"l":120,"r":40,"t":72,"b":40},"yaxis":{"title":{"text":""},"autorange":"reversed"},"xaxis":{"title":{"text":"Holdout WAPE (%) — Lower is Better"},"gridcolor":"#DDE1EE"},"height":410,"paper_bgcolor":"#FFFFFF","plot_bgcolor":"#FFFFFF","showlegend":false},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- ROW 2 — ACCURACY + DRIVERS -->
+<!-- ===================================================== -->
+
+<div style="
+display:grid;
+grid-template-columns:1fr 1.15fr;
+gap:14px;
+margin-bottom:14px;
+">
+
+
+<!-- ERROR -->
+
+<div style="
+background:#FFFFFF;
+padding:6px;
+border-radius:7px;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div>                            <div id="4899779e-97e2-4c4d-ab25-3b03411184a3" class="plotly-graph-div" style="height:350px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("4899779e-97e2-4c4d-ab25-3b03411184a3")) {                    Plotly.newPlot(                        "4899779e-97e2-4c4d-ab25-3b03411184a3",                        [{"marker":{"color":["#E45B67","#E45B67","#2878F0","#E45B67","#E45B67","#E45B67","#E45B67","#2878F0","#E45B67","#2878F0","#2878F0","#E45B67"]},"name":"Weekly Error","x":["2025-10-06T00:00:00","2025-10-13T00:00:00","2025-10-20T00:00:00","2025-10-27T00:00:00","2025-11-03T00:00:00","2025-11-10T00:00:00","2025-11-17T00:00:00","2025-11-24T00:00:00","2025-12-01T00:00:00","2025-12-08T00:00:00","2025-12-15T00:00:00","2025-12-22T00:00:00"],"y":[-9406.513118159259,-60275.35184976854,30560.40961799468,-43579.25912345399,-24468.700755238067,-280590.2416637675,-26037.811016934458,71239.640869027,-16219.423798311967,45050.33126674546,64579.74169296853,-89158.96295573143],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"shapes":[{"line":{"color":"#253B80","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":0,"y1":0,"yref":"y"}],"title":{"font":{"size":14,"color":"#20233A"},"text":"\u003cb\u003eNegative Errors Reveal an Over-Forecast Tendency\u003c\u002fb\u003e"},"font":{"family":"Inter, Arial, sans-serif","color":"#20233A"},"margin":{"l":55,"r":20,"t":70,"b":40},"xaxis":{"title":{"text":"Holdout Week"},"gridcolor":"#DDE1EE"},"yaxis":{"title":{"text":"Actual − Forecast (Bags)"},"gridcolor":"#DDE1EE"},"height":350,"paper_bgcolor":"#FFFFFF","plot_bgcolor":"#FFFFFF","showlegend":false},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+
+</div>
+
+
+<!-- DRIVERS -->
+
+<div style="
+background:#FFFFFF;
+padding:18px;
+border-radius:7px;
+border:
+1px solid
+#E2DFE5;
+">
+
+
+<div style="
+font-size:18px;
+font-weight:800;
+margin-bottom:3px;
+color:#20233A;
+">
+
+What appears to move demand?
+
+</div>
+
+
+<div style="
+font-size:11px;
+color:#6D7187;
+margin-bottom:15px;
+">
+
+Regression-based demand associations on the training period
+
+</div>
+
+
+<div style="
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+">
+
+
+<!-- EVENT -->
+
+<div style="
+background:#FFF7E5;
+padding:14px;
+border-radius:7px;
+border-left:
+5px solid
+#F2B84B;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+AGRICULTURAL EVENT WINDOW
+</div>
+
+<div style="
+font-size:24px;
+font-weight:800;
+color:#A16D15;
+">
++231K
+</div>
+
+<div style="
+font-size:12px;
+">
+bags / week
+</div>
+
+<div style="
+font-size:10px;
+margin-top:4px;
+color:#8C651C;
+">
+Strong statistical evidence
+</div>
+
+</div>
+
+
+<!-- PROMOTION -->
+
+<div style="
+background:#EEF0FF;
+padding:14px;
+border-radius:7px;
+border-left:
+5px solid
+#2878F0;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+PROMOTION WEEK
+</div>
+
+<div style="
+font-size:24px;
+font-weight:800;
+color:#2878F0;
+">
++148K
+</div>
+
+<div style="
+font-size:12px;
+">
+bags / week
+</div>
+
+<div style="
+font-size:10px;
+margin-top:4px;
+color:#2878F0;
+">
+Strong statistical evidence
+</div>
+
+</div>
+
+
+<!-- DISTRIBUTION -->
+
+<div style="
+background:#EEEFF6;
+padding:14px;
+border-radius:7px;
+border-left:
+5px solid
+#5B4BC4;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
++10 DISTRIBUTION POINTS
+</div>
+
+<div style="
+font-size:24px;
+font-weight:800;
+color:#5B4BC4;
+">
++13K
+</div>
+
+<div style="
+font-size:12px;
+">
+bags / week
+</div>
+
+<div style="
+font-size:10px;
+margin-top:4px;
+color:#5B4BC4;
+">
+Operationally actionable
+</div>
+
+</div>
+
+
+<!-- PRICE -->
+
+<div style="
+background:#F3F0EB;
+padding:14px;
+border-radius:7px;
+border-left:
+5px solid
+#A9AEC2;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+PRICE + PKR 100
+</div>
+
+<div style="
+font-size:24px;
+font-weight:800;
+color:#6D7187;
+">
+-1.8K
+</div>
+
+<div style="
+font-size:12px;
+">
+bags / week
+</div>
+
+<div style="
+font-size:10px;
+margin-top:4px;
+color:#6D7187;
+">
+Not statistically significant
+</div>
+
+</div>
+
+
+</div>
+
+
+<div style="
+margin-top:14px;
+font-size:11px;
+color:#6D7187;
+">
+
+Regression R² =
+<b>81.6%</b> |
+
+Adjusted R² =
+<b>81.1%</b>.
+
+Coefficients represent associations,
+not verified causal effects.
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- RISK SECTION LABEL -->
+<!-- ===================================================== -->
+
+<div style="
+font-size:10px;
+font-weight:800;
+letter-spacing:1.4px;
+color:#6D7187;
+margin:5px 0 8px 2px;
+">
+
+DECISION RISK • WHAT IF THE PLAN IS WRONG?
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- ROW 3 — SCENARIOS + DECISION SUPPORT -->
+<!-- ===================================================== -->
+
+<div style="
+display:grid;
+grid-template-columns:1.3fr 1fr;
+gap:14px;
+margin-bottom:14px;
+">
+
+
+<div style="
+background:#FFFFFF;
+padding:6px;
+border-radius:7px;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div>                            <div id="81b6c4fa-9e19-42da-b81e-3468e6504b6d" class="plotly-graph-div" style="height:350px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("81b6c4fa-9e19-42da-b81e-3468e6504b6d")) {                    Plotly.newPlot(                        "81b6c4fa-9e19-42da-b81e-3468e6504b6d",                        [{"marker":{"color":["#65A5FF","#5B4BC4","#F08A5D","#E45B67"]},"text":["9.96M","11.07M","12.17M","11.88M"],"textposition":"outside","x":["Downside -10%","Base","Upside +10%","Event Weeks +15%"],"y":[9960038.621431505,11066709.57936834,12173380.537305174,11877751.526680067],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"shapes":[{"line":{"color":"#253B80","dash":"dash"},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":11066709.57936834,"y1":11066709.57936834,"yref":"y"}],"annotations":[{"showarrow":false,"text":"Base Plan","x":1,"xanchor":"right","xref":"x domain","y":11066709.57936834,"yanchor":"bottom","yref":"y"}],"title":{"font":{"size":14,"color":"#20233A"},"text":"\u003cb\u003eDownside Is Absorbed; Upside and Event Intensity Require Additional Readiness\u003c\u002fb\u003e"},"font":{"family":"Inter, Arial, sans-serif","color":"#20233A"},"margin":{"l":55,"r":20,"t":70,"b":40},"yaxis":{"title":{"text":"12-Week Demand — Bags"},"gridcolor":"#DDE1EE"},"height":350,"paper_bgcolor":"#FFFFFF","plot_bgcolor":"#FFFFFF","xaxis":{"title":{"text":""}},"showlegend":false},                        {"displayModeBar": false, "responsive": true}                    )                };                            </script>        </div>
+
+</div>
+
+
+<div style="
+display:grid;
+grid-template-columns:1fr;
+gap:10px;
+">
+
+
+<!-- FLEXIBLE -->
+
+<div style="
+background:#EEEFF6;
+padding:17px;
+border-radius:7px;
+border-left:
+6px solid
+#5B4BC4;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:11px;
+color:#6D7187;
+font-weight:700;
+">
+FLEXIBLE BASE VOLUME
+</div>
+
+<div style="
+font-size:29px;
+font-weight:800;
+color:#253B80;
+">
+1.11M bags
+</div>
+
+<div style="
+font-size:12px;
+">
+10% of the base plan remains responsive.
+</div>
+
+</div>
+
+
+<!-- UPSIDE -->
+
+<div style="
+background:#F8EEE7;
+padding:17px;
+border-radius:7px;
+border-left:
+6px solid
+#F08A5D;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:11px;
+color:#6D7187;
+font-weight:700;
+">
++10% UPSIDE EXPOSURE
+</div>
+
+<div style="
+font-size:29px;
+font-weight:800;
+color:#F08A5D;
+">
+1.11M bags
+</div>
+
+<div style="
+font-size:12px;
+">
+Additional surge supply required above the base plan.
+</div>
+
+</div>
+
+
+<!-- SUPPLY LOSS -->
+
+<div style="
+background:#F8E9ED;
+padding:17px;
+border-radius:7px;
+border-left:
+6px solid
+#E45B67;
+border:
+1px solid
+#E2DFE5;
+">
+
+<div style="
+font-size:11px;
+color:#6D7187;
+font-weight:700;
+">
+10% SUPPLY LOSS
+</div>
+
+<div style="
+font-size:29px;
+font-weight:800;
+color:#E45B67;
+">
+1.11M bags
+</div>
+
+<div style="
+font-size:12px;
+">
+≈ 55,334
+tonnes of potential shortfall.
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SIGNATURE OPERATING FRAMEWORK -->
+<!-- ===================================================== -->
+
+<div style="
+font-size:10px;
+font-weight:800;
+letter-spacing:1.4px;
+color:#6D7187;
+margin:5px 0 8px 2px;
+">
+
+OPERATING FRAMEWORK
+
+</div>
+
+
+<div style="
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+margin-bottom:12px;
+">
+
+
+<!-- COMMITTED -->
+
+<div style="
+background:#F1F0F8;
+padding:13px;
+border-radius:7px;
+text-align:center;
+border-bottom:
+4px solid
+#2878F0;
+">
+
+<div style="
+font-size:9px;
+color:#6D7187;
+font-weight:700;
+letter-spacing:0.8px;
+">
+BASE PLAN
+</div>
+
+<div style="
+font-size:19px;
+font-weight:800;
+color:#2878F0;
+">
+90% COMMITTED
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+margin-top:2px;
+">
+9.96M bags
+</div>
+
+</div>
+
+
+<!-- FLEX -->
+
+<div style="
+background:#F1EDFF;
+padding:13px;
+border-radius:7px;
+text-align:center;
+border-bottom:
+4px solid
+#5B4BC4;
+">
+
+<div style="
+font-size:9px;
+color:#6D7187;
+font-weight:700;
+letter-spacing:0.8px;
+">
+FLEXIBILITY
+</div>
+
+<div style="
+font-size:19px;
+font-weight:800;
+color:#5B4BC4;
+">
+10% RESPONSIVE
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+margin-top:2px;
+">
+1.11M bags
+</div>
+
+</div>
+
+
+<!-- EVENT -->
+
+<div style="
+background:#FFF7E5;
+padding:13px;
+border-radius:7px;
+text-align:center;
+border-bottom:
+4px solid
+#F2B84B;
+">
+
+<div style="
+font-size:9px;
+color:#6D7187;
+font-weight:700;
+letter-spacing:0.8px;
+">
+EVENT-WEEK READINESS
+</div>
+
+<div style="
+font-size:19px;
+font-weight:800;
+color:#A16D15;
+">
++15% EVENT SHOCK
+</div>
+
+<div style="
+font-size:11px;
+color:#6D7187;
+margin-top:2px;
+">
+
+≈ 0.81M
+incremental bags across the horizon
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- MANAGEMENT ACTION -->
+<!-- ===================================================== -->
+
+<div style="
+background:
+linear-gradient(
+    100deg,
+    #253B80,
+    #5B4BC4 68%,
+    #2878F0
+);
+
+color:white;
+
+padding:22px 26px;
+
+border-radius:7px;
+
+margin-bottom:12px;
+
+box-shadow:
+0 5px 18px
+rgba(37,59,128,0.12);
+">
+
+
+<div style="
+font-size:11px;
+letter-spacing:1.2px;
+font-weight:700;
+opacity:0.82;
+">
+
+MANAGEMENT DECISION
+
+</div>
+
+
+<div style="
+font-size:25px;
+font-weight:750;
+margin-top:5px;
+line-height:1.25;
+">
+
+Commit
+9.96M bags now.
+
+Retain
+1.11M bags flexible.
+
+</div>
+
+
+<div style="
+font-size:14px;
+margin-top:10px;
+line-height:1.55;
+opacity:0.95;
+">
+
+Use <b>Holt-Winters</b>
+as the primary next-12-week
+demand-planning forecast.
+
+The 90/10 structure protects the plan
+against approximately a 10% downside
+while preserving replenishment flexibility.
+
+Maintain additional readiness of approximately
+
+<b>
+0.81M bags
+</b>
+
+if agricultural-event weeks are around
+15% stronger than the base forecast.
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- BOTTOM CONTROL STRIP -->
+<!-- ===================================================== -->
+
+<div style="
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:10px;
+">
+
+
+<!-- RISK -->
+
+<div style="
+background:#FFFFFF;
+padding:13px;
+border-radius:7px;
+border-top:
+3px solid
+#E45B67;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+KEY RISK
+</div>
+
+<div style="
+font-size:13px;
+font-weight:700;
+">
+Seasonal upside or operational supply disruption
+</div>
+
+</div>
+
+
+<!-- TRIGGER -->
+
+<div style="
+background:#FFFFFF;
+padding:13px;
+border-radius:7px;
+border-top:
+3px solid
+#F08A5D;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+REVIEW TRIGGER
+</div>
+
+<div style="
+font-size:13px;
+font-weight:700;
+">
+First-two-week forecast deviation &gt;10%
+</div>
+
+</div>
+
+
+<!-- MODEL WATCH -->
+
+<div style="
+background:#FFFFFF;
+padding:13px;
+border-radius:7px;
+border-top:
+3px solid
+#5B4BC4;
+">
+
+<div style="
+font-size:10px;
+color:#6D7187;
+font-weight:700;
+">
+MODEL WATCH
+</div>
+
+<div style="
+font-size:13px;
+font-weight:700;
+">
+Investigate deteriorating Tracking Signal
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- FOOTNOTE -->
+<!-- ===================================================== -->
+
+<div style="
+font-size:9px;
+color:#6D7187;
+margin-top:12px;
+text-align:center;
+line-height:1.5;
+">
+
+Academic forecasting dashboard using
+company-calibrated synthetic data.
+
+Regression evidence represents association rather than proven causation.
+
+Holdout metrics evaluate model selection;
+headline planning volumes use the final Holt-Winters model
+refitted on all observed history.
+
+Forward shaded range is derived from holdout error variability
+and is shown as an empirical uncertainty band.
+
+Error convention: Actual − Forecast.
+
+</div>
+
+
+</div>
+
+
+</body>
+</html>
