@@ -1,3 +1,374 @@
+<div align="center">
+
+<img src="./EFFERT%20SCA%20banner.png"
+     alt="Supply Chain Analytics | IBA Karachi | Engro Fertilizers Limited"
+     width="100%">
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-Analytics-3776AB?style=flat-square&logo=python&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-Analysis-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![AI](https://img.shields.io/badge/AI-Assisted_Analytics-7C3AED?style=flat-square)
+![Supply Chain](https://img.shields.io/badge/Supply_Chain-Analytics-0F766E?style=flat-square)
+![PSX](https://img.shields.io/badge/PSX-EFERT-1F6F5C?style=flat-square)
+
+> **Supply Chain Analytics × AI** — applying data-driven methods to the supply chain of **Engro Fertilizers Limited (EFERT)**.
+
+</div>
+
+---
+
+## About
+
+This repository contains coursework, analytical models, dashboards, assignments, and project work for **MGT-353: Supply Chain Analytics at IBA Karachi**, taught by **Faisal Jalal** during **Fall 2026**.
+
+Using **Engro Fertilizers Limited (PSX: EFERT)** as the focal company, the project applies supply chain analytics to real managerial problems across:
+
+- Demand Forecasting
+- Inventory Optimization
+- Network Design
+- Transportation & Logistics
+- Supplier & Procurement Analytics
+- Supply Chain Risk
+- ESG & Sustainability
+- AI-Assisted Decision Making
+- Integrated Supply Chain Dashboards
+
+The project is built progressively throughout the semester, with each module contributing toward a final **integrated capstone dashboard, validation report, and presentation**.
+
+---
+
+## Repository
+
+| Section | Focus |
+|:---|:---|
+| 📂 `00 Initial Working` | Company research, annual-report analysis, exploratory work & data foundations |
+| 📈 `01 Forecasting` | Demand forecasting, model comparison, validation & forward planning |
+| 📦 `02 Inventory` | EOQ, safety stock, inventory analytics & optimization |
+| 🌐 `03 Network Sourcing` | Distribution network design, logistics, sourcing & supplier analytics |
+| 🌱 `04 Risk ESG` | Supply chain risk, resilience, ESG & sustainability |
+| 🎛️ `05 Control Tower` | Integrated monitoring, analytics & decision-support dashboards |
+| 🎓 `06 Capstone` | Final integrated dashboard, validation report & presentation |
+| 📝 `Assignments` | Course assignments and supporting submissions |
+| 🗃️ `Data` | Public, derived and synthetic datasets used throughout the project |
+| 📚 `Sources` | Annual reports, PSX disclosures and supporting references |
+
+---
+
+## Project Flow
+
+```text
+Company & Public Data
+        ↓
+Data Cleaning & Validation
+        ↓
+Demand Forecasting
+        ↓
+Inventory Optimization
+        ↓
+Network & Sourcing Analytics
+        ↓
+Risk & ESG Analysis
+        ↓
+Control Tower / Decision Support
+        ↓
+Integrated Capstone
+```
+
+---
+
+# Project Modules
+
+## 📈 01 — Forecasting
+
+Demand forecasting and forward planning using time-series, causal, and business-adjusted forecasting methods.
+
+### Key Areas
+
+- Demand forecasting
+- Forecast model development
+- Model comparison
+- Holdout validation
+- Forecast accuracy
+- MAPE
+- WAPE
+- MAD
+- Tracking Signal
+- Regression-based analysis
+- Forward demand planning
+- Dashboard development
+- Managerial recommendations
+
+**Status:** ✅ Completed
+
+---
+
+## 📦 02 — Inventory
+
+Inventory planning and optimization using supply chain inventory models.
+
+### Planned Areas
+
+- Economic Order Quantity — EOQ
+- Safety Stock
+- Reorder Point
+- Service Level
+- Inventory Turnover
+- Days Inventory Outstanding
+- ABC / XYZ Segmentation
+- Risk Pooling
+- Inventory Optimization
+- Inventory Dashboard Development
+
+**Status:** 🟡 Next
+
+---
+
+## 🌐 03 — Network & Sourcing
+
+Analysis of EFERT's distribution, transportation, sourcing, and supplier decisions.
+
+### Planned Areas
+
+- Distribution Network Design
+- Transportation Analytics
+- Logistics Decisions
+- Linear Programming
+- Network Optimization
+- Supplier Evaluation
+- Procurement Analytics
+- Supplier Scorecards
+- Sourcing Strategy
+- Negotiation Analysis
+
+**Status:** ⚪ Upcoming
+
+---
+
+## 🌱 04 — Risk & ESG
+
+Evaluation of supply-chain resilience, sustainability, and long-term sourcing risks.
+
+### Planned Areas
+
+- Supply Risk
+- Supplier Risk
+- Operational Risk
+- Logistics Risk
+- Supply Chain Resilience
+- ESG Considerations
+- Sustainable Sourcing
+- Risk Mitigation Strategies
+- ESG-Scored Sourcing Recommendations
+
+**Status:** ⚪ Upcoming
+
+---
+
+## 🎛️ 05 — Control Tower
+
+Integration of analytical outputs into a broader supply-chain decision-support environment.
+
+### Planned Areas
+
+- KPI Monitoring
+- Forecast Visibility
+- Inventory Visibility
+- Network Performance
+- Risk Indicators
+- Management Alerts
+- Integrated Analytics
+- Decision-Support Dashboards
+
+**Status:** ⚪ Upcoming
+
+---
+
+## 🎓 06 — Capstone
+
+The final capstone brings together the semester's analytical work into a single integrated supply-chain decision-support system.
+
+### Expected Outputs
+
+- Integrated Supply Chain Dashboard
+- Forecasting Analysis
+- Inventory Analysis
+- Network & Sourcing Analysis
+- Risk & ESG Analysis
+- Consolidated Datasets
+- Model Validation
+- AI-Output Validation
+- Stress Testing
+- Managerial Recommendations
+- Validation Report
+- Final Presentation & Defense
+
+**Status:** ⚪ Upcoming
+
+---
+
+# Data Transparency
+
+> [!IMPORTANT]
+> This repository clearly distinguishes between **real company data**, **derived analytical outputs**, **synthetic data**, and **modelling assumptions**.
+
+| Classification | Meaning |
+|:---|:---|
+| 🟢 **Public Disclosure** | Data obtained directly from EFERT annual reports, PSX filings, investor communications, or other official sources |
+| 🔵 **Derived Data** | Values calculated from verified public information |
+| 🟡 **Synthetic / Illustrative Data** | Generated operational data used where real operational-level information is not publicly available |
+| ⚪ **Model Assumption** | Explicit assumptions introduced for analytical modelling |
+
+Synthetic or assumed figures are **never presented as actual EFERT operational results**.
+
+---
+
+# Data Validation
+
+Where possible, company data is traced back to its original source.
+
+Validation may include:
+
+- Annual report page references
+- PSX disclosures
+- Investor-relations material
+- Cross-checking reported figures
+- Unit verification
+- Year alignment
+- Formula validation
+- Model output checks
+- AI-output verification
+
+> [!NOTE]
+> The objective is not simply to generate analytical outputs, but to ensure that the underlying data, modelling choices, and resulting recommendations can be independently checked and defended.
+
+---
+
+# AI & Analytics
+
+AI tools are used throughout the project to support analytical work including:
+
+- Data structuring
+- Data cleaning
+- Coding
+- Analytical modelling
+- Model comparison
+- Scenario generation
+- Dashboard development
+- Research assistance
+- Validation
+- Interpretation of results
+
+AI-generated outputs are independently checked against:
+
+- Verified source data
+- Calculations
+- Company disclosures
+- Model logic
+- Managerial context
+
+> [!WARNING]
+> AI-generated figures are not treated as factual company information unless they can be independently verified from an official source.
+
+---
+
+# Analytics Approach
+
+The project follows a decision-focused analytical process:
+
+```text
+Business Problem
+      ↓
+SCM Concept
+      ↓
+Decision Question
+      ↓
+Data
+      ↓
+Analytical Method
+      ↓
+Result
+      ↓
+Managerial Decision
+      ↓
+Action
+```
+
+The purpose of each model is therefore not merely to generate a number or visualization, but to support a defensible managerial decision.
+
+---
+
+# Tools
+
+`Python` · `Excel` · `Power BI` · `Pandas` · `Data Visualization` · `AI-Assisted Analytics` · `GitHub`
+
+---
+
+# Portfolio Outputs
+
+By the end of the semester, the project is expected to contain:
+
+- 📈 **Forecasting Dashboard**
+- 📦 **Inventory Optimization Model**
+- 🌐 **Optimized Distribution Network**
+- 🤝 **Supplier Scorecard & Sourcing Strategy**
+- 🌱 **ESG-Scored Sourcing Recommendation**
+- 🎛️ **Supply Chain Control Tower**
+- 🎓 **Integrated Capstone Dashboard**
+- 📑 **Validation Report**
+- 🎤 **Final Presentation & Defense**
+
+---
+
+# Current Progress
+
+| Module | Status |
+|:---|:---:|
+| Data Foundations | ✅ Completed |
+| Annual Report Analysis | ✅ Completed |
+| Forecasting | ✅ Completed |
+| Inventory | 🟡 Next |
+| Network & Sourcing | ⚪ Upcoming |
+| Risk & ESG | ⚪ Upcoming |
+| Control Tower | ⚪ Upcoming |
+| Capstone | ⚪ Upcoming |
+
+---
+
+# Company
+
+## Engro Fertilizers Limited
+
+**PSX Symbol:** `EFERT`  
+**Industry:** Fertilizer  
+**Market:** Pakistan Stock Exchange  
+**Project Role:** Semester-long focal company for Supply Chain Analytics
+
+The project uses EFERT's public disclosures as its real-data foundation and supplements them with clearly labelled analytical assumptions or synthetic operational data only where necessary.
+
+---
+
+# Course
+
+**MGT-353 — Supply Chain Analytics**  
+**IBA Karachi**  
+**Fall 2026**  
+**Instructor:** Faisal Jalal
+
+---
+
+<div align="center">
+
+### MGT-353 · Supply Chain Analytics · IBA Karachi · Fall 2026
+
+🌱 **Engro Fertilizers Limited — EFERT**
+
+**From company data to supply-chain decisions.**
+
+</div>
+
+---
 <h1 align="center">M. Mustafa Mirza</h1>
 
 <p align="center">
@@ -26,142 +397,3 @@
 </p>
 
 ---
-
-## Snapshot
-
-| | |
-|---|---|
-| 🎓 **Education** | BBA, Institute of Business Administration (IBA), Karachi · 2023–2027 |
-| 🎯 **Target Roles** | Supply Chain Analyst · Operations & Planning · Business / Data Analyst · MIS & Reporting |
-| 📊 **Core Strengths** | Data management, Excel analytics, dashboards, process coordination, research |
-| 🏢 **Industry Exposure** | Insurance (Adamjee Life), FMCG case research (Colgate), Education (TCF) |
-| 📍 **Location** | Karachi, Pakistan |
-
----
-
-## About
-
-I'm a **BBA student at IBA Karachi** who enjoys the part of business where **clean data meets better decisions**. My hands-on work so far has involved maintaining MIS records, building PivotTables and charts, coordinating schedules across teams, and handling documentation-heavy processes where accuracy matters.
-
-I'm now steering my path toward **supply chain and analytics**, where those same habits (structured data, process discipline, and clear reporting) drive planning, efficiency, and performance.
-
----
-
-## Focus Areas
-
-```mermaid
-flowchart LR
-    A[Plan<br/>Forecast & Schedule] --> B[Source<br/>Screen & Select]
-    B --> C[Operate<br/>Coordinate & Track]
-    C --> D[Deliver<br/>Report & Visualize]
-    D --> E[Improve<br/>Analyze & Optimize]
-    E --> A
-```
-
-| Area | What I bring |
-|---|---|
-| **Data & MIS Management** | Maintained HR/MIS datasets, kept records accurate and organized for reporting |
-| **Reporting & Visualization** | Excel PivotTables and charts, introductory Power BI dashboards |
-| **Process Coordination** | Training calendars, multi-stakeholder scheduling, documentation workflows |
-| **Criteria-Based Screening** | Shortlisting against defined requirements, a mindset that carries over to vendor and supplier evaluation |
-| **Research & Insight** | Qualitative design, thematic analysis, questionnaire design, turning findings into recommendations |
-| **Cost & Decision Awareness** | Studied how non-finance teams use management accounting information to decide |
-
----
-
-## Toolkit
-
-*Click any badge to visit the tool's website.*
-
-**Analytics & Data**
-
-<p>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel"><img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/></a>
-  <a href="https://powerbi.microsoft.com"><img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/></a>
-  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-</p>
-
-**Workflow & Forms**
-
-<p>
-  <a href="https://www.jotform.com"><img src="https://img.shields.io/badge/Jotform-F57C00?style=for-the-badge" alt="Jotform"/></a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/word"><img src="https://img.shields.io/badge/MS%20Office-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" alt="Microsoft Office"/></a>
-</p>
-
-**Exploring Next** *(edit this list to match what you're actually learning)*
-
-<p>
-  <a href="https://www.mysql.com"><img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/></a>
-  <a href="https://www.tableau.com"><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/></a>
-</p>
-
-**Competency Map**
-
-| Domain | Skills |
-|---|---|
-| **Analytics** | PivotTables · Charts · Dashboards · Descriptive analysis · MIS reporting |
-| **Operations** | Scheduling · Coordination · Documentation · Process workflows · Settlement processing |
-| **Research** | Focus groups · In-depth interviews · Thematic analysis · Questionnaire design |
-| **Business** | Management accounting concepts · Organizational behavior · Change management |
-
----
-
-## Experience
-
-### 🏢 HR Intern, Adamjee Life Assurance Company Ltd.
-*Karachi, Pakistan · Jul 15 – Aug 15, 2026*
-
-- **Data & MIS:** Maintained HR/MIS data and used Excel PivotTables and charts to visualize workforce information
-- **Coordination:** Planned and coordinated training calendars across teams
-- **Screening:** Screened and shortlisted CVs against job requirements and routed candidates to line managers
-- **Process Accuracy:** Assisted with Full & Final Settlement (F&F) processing, where precision and documentation are critical
-- **Systems Exposure:** Worked with Jotform, EDM, and Decibel, gaining exposure to process automation and system-based workflows
-- **Communication:** Corresponded with individuals regarding documentation requirements
-
-### 🎓 Social Intern / Mathematics Instructor, The Citizens Foundation (TCF)
-*ADP Program, IBA · Jul – Aug 2023*
-
-- Taught mathematics to underprivileged students preparing for entry tests, building clarity and problem-solving skills
-- Developed targeted learning material to address common difficulties
-- Organized a campus visit for students to show higher-education pathways
-
----
-
-## Research & Projects
-
-| Project | Focus | Methods & Takeaway |
-|---|---|---|
-| **Management Accounting Use by Non-Accounting Professionals** | Adamjee Life & Colgate | How non-finance teams apply financial information to support decisions |
-| **Social Media & First-Time Skincare Purchase** | Consumer behavior in Pakistan | Masculinity norms, confidence, and digital persuasion in purchase decisions |
-| **Leadership in Action: Gender, EI & Team Dynamics** | Organizational behavior | Industry conversations on leadership style, communication, and adaptability |
-
-*Plus additional case-based assignments involving qualitative analysis and case evaluation.*
-
----
-
-## Education
-
-**Institute of Business Administration (IBA), Karachi**
-Bachelor of Business Administration (BBA) · 2023–2027
-
-`Organizational Behavior` `Human Resource Management` `Leading the Change Process` `Counseling Psychology (in progress)`
-
----
-
-## Beyond Work
-
-🧊 **Rubik's Cube solving** for focus, pattern recognition, and mental agility
-🏊 **Swimming** for endurance, discipline, and clarity
-
----
-
-## Contact
-
-<p align="center">
-  <i>Open to internships and entry-level opportunities in supply chain, operations, and analytics.</i>
-</p>
-
-<p align="center">
-  <a href="mailto:mustamirza702@gmail.com"><img src="https://img.shields.io/badge/Email-mustamirza702%40gmail.com-0A2540?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="www.linkedin.com/in/mustafa-mirza-10892a299"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
-</p>
