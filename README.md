@@ -80,9 +80,13 @@ Integrated Capstone
 
 # Project Modules
 
-## 📈 01 — Forecasting
+<details>
+<summary><strong>📈 01 — Forecasting</strong> &nbsp; ✅ Completed</summary>
 
-Demand forecasting and forward planning using time-series, causal, and business-adjusted forecasting methods.
+<br>
+
+> [!NOTE]
+> Demand forecasting and forward planning using time-series, causal, and business-adjusted forecasting methods.
 
 ### Key Areas
 
@@ -102,11 +106,17 @@ Demand forecasting and forward planning using time-series, causal, and business-
 
 **Status:** ✅ Completed
 
+</details>
+
 ---
 
-## 📦 02 — Inventory
+<details>
+<summary><strong>📦 02 — Inventory</strong> &nbsp; 🟡 Next</summary>
 
-Inventory planning and optimization using supply chain inventory models.
+<br>
+
+> [!NOTE]
+> Inventory planning and optimization using supply chain inventory models.
 
 ### Planned Areas
 
@@ -123,11 +133,17 @@ Inventory planning and optimization using supply chain inventory models.
 
 **Status:** 🟡 Next
 
+</details>
+
 ---
 
-## 🌐 03 — Network & Sourcing
+<details>
+<summary><strong>🌐 03 — Network & Sourcing</strong> &nbsp; ⚪ Upcoming</summary>
 
-Analysis of EFERT's distribution, transportation, sourcing, and supplier decisions.
+<br>
+
+> [!NOTE]
+> Analysis of EFERT's distribution, transportation, sourcing, and supplier decisions.
 
 ### Planned Areas
 
@@ -144,11 +160,17 @@ Analysis of EFERT's distribution, transportation, sourcing, and supplier decisio
 
 **Status:** ⚪ Upcoming
 
+</details>
+
 ---
 
-## 🌱 04 — Risk & ESG
+<details>
+<summary><strong>🌱 04 — Risk & ESG</strong> &nbsp; ⚪ Upcoming</summary>
 
-Evaluation of supply-chain resilience, sustainability, and long-term sourcing risks.
+<br>
+
+> [!NOTE]
+> Evaluation of supply-chain resilience, sustainability, and long-term sourcing risks.
 
 ### Planned Areas
 
@@ -164,11 +186,17 @@ Evaluation of supply-chain resilience, sustainability, and long-term sourcing ri
 
 **Status:** ⚪ Upcoming
 
+</details>
+
 ---
 
-## 🎛️ 05 — Control Tower
+<details>
+<summary><strong>🎛️ 05 — Control Tower</strong> &nbsp; ⚪ Upcoming</summary>
 
-Integration of analytical outputs into a broader supply-chain decision-support environment.
+<br>
+
+> [!NOTE]
+> Integration of analytical outputs into a broader supply-chain decision-support environment.
 
 ### Planned Areas
 
@@ -183,11 +211,17 @@ Integration of analytical outputs into a broader supply-chain decision-support e
 
 **Status:** ⚪ Upcoming
 
+</details>
+
 ---
 
-## 🎓 06 — Capstone
+<details>
+<summary><strong>🎓 06 — Capstone</strong> &nbsp; ⚪ Upcoming</summary>
 
-The final capstone brings together the semester's analytical work into a single integrated supply-chain decision-support system.
+<br>
+
+> [!IMPORTANT]
+> The final capstone brings together the semester's analytical work into a single integrated supply-chain decision-support system.
 
 ### Expected Outputs
 
@@ -206,9 +240,16 @@ The final capstone brings together the semester's analytical work into a single 
 
 **Status:** ⚪ Upcoming
 
+</details>
+
 ---
 
-# Data Transparency
+# Project Governance
+
+<details>
+<summary><strong>🧾 Data Transparency</strong></summary>
+
+<br>
 
 > [!IMPORTANT]
 > This repository clearly distinguishes between **real company data**, **derived analytical outputs**, **synthetic data**, and **modelling assumptions**.
@@ -222,13 +263,18 @@ The final capstone brings together the semester's analytical work into a single 
 
 Synthetic or assumed figures are **never presented as actual EFERT operational results**.
 
+</details>
+
 ---
 
-# Data Validation
+<details>
+<summary><strong>✅ Data Validation</strong></summary>
+
+<br>
 
 Where possible, company data is traced back to its original source.
 
-Validation may include:
+### Validation may include
 
 - Annual report page references
 - PSX disclosures
@@ -243,9 +289,14 @@ Validation may include:
 > [!NOTE]
 > The objective is not simply to generate analytical outputs, but to ensure that the underlying data, modelling choices, and resulting recommendations can be independently checked and defended.
 
+</details>
+
 ---
 
-# AI & Analytics
+<details>
+<summary><strong>🤖 AI & Analytics</strong></summary>
+
+<br>
 
 AI tools are used throughout the project to support analytical work including:
 
@@ -260,7 +311,7 @@ AI tools are used throughout the project to support analytical work including:
 - Validation
 - Interpretation of results
 
-AI-generated outputs are independently checked against:
+### AI outputs are checked against
 
 - Verified source data
 - Calculations
@@ -271,9 +322,14 @@ AI-generated outputs are independently checked against:
 > [!WARNING]
 > AI-generated figures are not treated as factual company information unless they can be independently verified from an official source.
 
+</details>
+
 ---
 
-# Analytics Approach
+<details>
+<summary><strong>🧠 Analytics Approach</strong></summary>
+
+<br>
 
 The project follows a decision-focused analytical process:
 
@@ -295,10 +351,11 @@ Managerial Decision
 Action
 ```
 
-The purpose of each model is therefore not merely to generate a number or visualization, but to support a defensible managerial decision.
+The purpose of each model is therefore not merely to generate a number or visualization, but to support a **defensible managerial decision**.
+
+</details>
 
 ---
-
 # Tools
 
 `Python` · `Excel` · `Power BI` · `Pandas` · `Data Visualization` · `AI-Assisted Analytics` · `GitHub`
@@ -318,21 +375,6 @@ By the end of the semester, the project is expected to contain:
 - 🎓 **Integrated Capstone Dashboard**
 - 📑 **Validation Report**
 - 🎤 **Final Presentation & Defense**
-
----
-
-# Current Progress
-
-| Module | Status |
-|:---|:---:|
-| Data Foundations | ✅ Completed |
-| Annual Report Analysis | ✅ Completed |
-| Forecasting | ✅ Completed |
-| Inventory | 🟡 Next |
-| Network & Sourcing | ⚪ Upcoming |
-| Risk & ESG | ⚪ Upcoming |
-| Control Tower | ⚪ Upcoming |
-| Capstone | ⚪ Upcoming |
 
 ---
 
