@@ -1,0 +1,7 @@
+candidate_id,city,fixed_cost_per_month,handling_cost_per_unit,capacity,lease_term,tag,method_or_source,low,high,verification
+DC01,Sukkur,900000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 30/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",630000,1350000,listing-derived context; hypothetical facility
+DC02,Hyderabad,1000000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 35/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",700000,1500000,listing-derived context; hypothetical facility
+DC03,Rahim Yar Khan,940000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 32/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",658000,1410000,listing-derived context; hypothetical facility
+DC04,Multan,900000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 30/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",630000,1350000,listing-derived context; hypothetical facility
+DC05,Faisalabad,1100000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 40/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",770000,1650000,listing-derived context; hypothetical facility
+DC06,Lahore,1400000,125,35000,12 months,[ASSUMED],"20,000 sq ft x PKR 55/sq ft/month + 300,000 overhead; 125 PKR/t handling; 35,000 t/month capacity",980000,2100000,listing-derived context; hypothetical facility

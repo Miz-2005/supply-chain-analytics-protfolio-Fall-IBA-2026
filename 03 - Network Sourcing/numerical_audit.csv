@@ -1,0 +1,489 @@
+solution,check,residual,passed
+optimal,Objective reconciliation PKR,9.5367431640625e-07,True
+optimal,Demand 2025-01 Z01,0.0,True
+optimal,Demand 2025-01 Z02,0.0,True
+optimal,Demand 2025-01 Z03,0.0,True
+optimal,Demand 2025-01 Z04,0.0,True
+optimal,Demand 2025-01 Z05,0.0,True
+optimal,Demand 2025-01 Z06,0.0,True
+optimal,Demand 2025-01 Z07,0.0,True
+optimal,Demand 2025-01 Z08,0.0,True
+optimal,Demand 2025-01 Z09,0.0,True
+optimal,Demand 2025-01 Z10,0.0,True
+optimal,Demand 2025-01 Z11,0.0,True
+optimal,Demand 2025-01 Z12,0.0,True
+optimal,Plant capacity 2025-01 P01,0.0,True
+optimal,Plant capacity 2025-01 P02,0.0,True
+optimal,DC throughput 2025-01 DC01,0.0,True
+optimal,DC throughput 2025-01 DC02,0.0,True
+optimal,DC throughput 2025-01 DC03,0.0,True
+optimal,DC throughput 2025-01 DC04,0.0,True
+optimal,DC throughput 2025-01 DC05,0.0,True
+optimal,DC throughput 2025-01 DC06,0.0,True
+optimal,Demand 2025-02 Z01,0.0,True
+optimal,Demand 2025-02 Z02,0.0,True
+optimal,Demand 2025-02 Z03,0.0,True
+optimal,Demand 2025-02 Z04,0.0,True
+optimal,Demand 2025-02 Z05,0.0,True
+optimal,Demand 2025-02 Z06,0.0,True
+optimal,Demand 2025-02 Z07,0.0,True
+optimal,Demand 2025-02 Z08,0.0,True
+optimal,Demand 2025-02 Z09,0.0,True
+optimal,Demand 2025-02 Z10,0.0,True
+optimal,Demand 2025-02 Z11,0.0,True
+optimal,Demand 2025-02 Z12,0.0,True
+optimal,Plant capacity 2025-02 P01,0.0,True
+optimal,Plant capacity 2025-02 P02,0.0,True
+optimal,DC throughput 2025-02 DC01,0.0,True
+optimal,DC throughput 2025-02 DC02,0.0,True
+optimal,DC throughput 2025-02 DC03,0.0,True
+optimal,DC throughput 2025-02 DC04,0.0,True
+optimal,DC throughput 2025-02 DC05,0.0,True
+optimal,DC throughput 2025-02 DC06,0.0,True
+optimal,Demand 2025-03 Z01,0.0,True
+optimal,Demand 2025-03 Z02,0.0,True
+optimal,Demand 2025-03 Z03,0.0,True
+optimal,Demand 2025-03 Z04,0.0,True
+optimal,Demand 2025-03 Z05,0.0,True
+optimal,Demand 2025-03 Z06,0.0,True
+optimal,Demand 2025-03 Z07,0.0,True
+optimal,Demand 2025-03 Z08,0.0,True
+optimal,Demand 2025-03 Z09,0.0,True
+optimal,Demand 2025-03 Z10,0.0,True
+optimal,Demand 2025-03 Z11,0.0,True
+optimal,Demand 2025-03 Z12,0.0,True
+optimal,Plant capacity 2025-03 P01,0.0,True
+optimal,Plant capacity 2025-03 P02,0.0,True
+optimal,DC throughput 2025-03 DC01,0.0,True
+optimal,DC throughput 2025-03 DC02,0.0,True
+optimal,DC throughput 2025-03 DC03,0.0,True
+optimal,DC throughput 2025-03 DC04,0.0,True
+optimal,DC throughput 2025-03 DC05,0.0,True
+optimal,DC throughput 2025-03 DC06,0.0,True
+optimal,Demand 2025-04 Z01,0.0,True
+optimal,Demand 2025-04 Z02,0.0,True
+optimal,Demand 2025-04 Z03,0.0,True
+optimal,Demand 2025-04 Z04,0.0,True
+optimal,Demand 2025-04 Z05,0.0,True
+optimal,Demand 2025-04 Z06,0.0,True
+optimal,Demand 2025-04 Z07,0.0,True
+optimal,Demand 2025-04 Z08,0.0,True
+optimal,Demand 2025-04 Z09,0.0,True
+optimal,Demand 2025-04 Z10,0.0,True
+optimal,Demand 2025-04 Z11,3.637978807091713e-12,True
+optimal,Demand 2025-04 Z12,0.0,True
+optimal,Plant capacity 2025-04 P01,0.0,True
+optimal,Plant capacity 2025-04 P02,0.0,True
+optimal,DC throughput 2025-04 DC01,0.0,True
+optimal,DC throughput 2025-04 DC02,0.0,True
+optimal,DC throughput 2025-04 DC03,0.0,True
+optimal,DC throughput 2025-04 DC04,0.0,True
+optimal,DC throughput 2025-04 DC05,0.0,True
+optimal,DC throughput 2025-04 DC06,0.0,True
+optimal,Demand 2025-05 Z01,0.0,True
+optimal,Demand 2025-05 Z02,0.0,True
+optimal,Demand 2025-05 Z03,0.0,True
+optimal,Demand 2025-05 Z04,0.0,True
+optimal,Demand 2025-05 Z05,0.0,True
+optimal,Demand 2025-05 Z06,0.0,True
+optimal,Demand 2025-05 Z07,0.0,True
+optimal,Demand 2025-05 Z08,0.0,True
+optimal,Demand 2025-05 Z09,0.0,True
+optimal,Demand 2025-05 Z10,0.0,True
+optimal,Demand 2025-05 Z11,0.0,True
+optimal,Demand 2025-05 Z12,0.0,True
+optimal,Plant capacity 2025-05 P01,0.0,True
+optimal,Plant capacity 2025-05 P02,1.4551915228366852e-11,True
+optimal,DC throughput 2025-05 DC01,0.0,True
+optimal,DC throughput 2025-05 DC02,0.0,True
+optimal,DC throughput 2025-05 DC03,0.0,True
+optimal,DC throughput 2025-05 DC04,0.0,True
+optimal,DC throughput 2025-05 DC05,0.0,True
+optimal,DC throughput 2025-05 DC06,4.547473508864641e-13,True
+optimal,Demand 2025-06 Z01,0.0,True
+optimal,Demand 2025-06 Z02,0.0,True
+optimal,Demand 2025-06 Z03,0.0,True
+optimal,Demand 2025-06 Z04,0.0,True
+optimal,Demand 2025-06 Z05,0.0,True
+optimal,Demand 2025-06 Z06,0.0,True
+optimal,Demand 2025-06 Z07,0.0,True
+optimal,Demand 2025-06 Z08,0.0,True
+optimal,Demand 2025-06 Z09,0.0,True
+optimal,Demand 2025-06 Z10,0.0,True
+optimal,Demand 2025-06 Z11,0.0,True
+optimal,Demand 2025-06 Z12,0.0,True
+optimal,Plant capacity 2025-06 P01,0.0,True
+optimal,Plant capacity 2025-06 P02,0.0,True
+optimal,DC throughput 2025-06 DC01,0.0,True
+optimal,DC throughput 2025-06 DC02,0.0,True
+optimal,DC throughput 2025-06 DC03,0.0,True
+optimal,DC throughput 2025-06 DC04,0.0,True
+optimal,DC throughput 2025-06 DC05,0.0,True
+optimal,DC throughput 2025-06 DC06,0.0,True
+optimal,Demand 2025-07 Z01,0.0,True
+optimal,Demand 2025-07 Z02,0.0,True
+optimal,Demand 2025-07 Z03,0.0,True
+optimal,Demand 2025-07 Z04,0.0,True
+optimal,Demand 2025-07 Z05,0.0,True
+optimal,Demand 2025-07 Z06,0.0,True
+optimal,Demand 2025-07 Z07,0.0,True
+optimal,Demand 2025-07 Z08,0.0,True
+optimal,Demand 2025-07 Z09,0.0,True
+optimal,Demand 2025-07 Z10,0.0,True
+optimal,Demand 2025-07 Z11,0.0,True
+optimal,Demand 2025-07 Z12,0.0,True
+optimal,Plant capacity 2025-07 P01,0.0,True
+optimal,Plant capacity 2025-07 P02,0.0,True
+optimal,DC throughput 2025-07 DC01,0.0,True
+optimal,DC throughput 2025-07 DC02,0.0,True
+optimal,DC throughput 2025-07 DC03,0.0,True
+optimal,DC throughput 2025-07 DC04,0.0,True
+optimal,DC throughput 2025-07 DC05,0.0,True
+optimal,DC throughput 2025-07 DC06,0.0,True
+optimal,Demand 2025-08 Z01,0.0,True
+optimal,Demand 2025-08 Z02,0.0,True
+optimal,Demand 2025-08 Z03,0.0,True
+optimal,Demand 2025-08 Z04,0.0,True
+optimal,Demand 2025-08 Z05,0.0,True
+optimal,Demand 2025-08 Z06,0.0,True
+optimal,Demand 2025-08 Z07,0.0,True
+optimal,Demand 2025-08 Z08,0.0,True
+optimal,Demand 2025-08 Z09,0.0,True
+optimal,Demand 2025-08 Z10,0.0,True
+optimal,Demand 2025-08 Z11,0.0,True
+optimal,Demand 2025-08 Z12,0.0,True
+optimal,Plant capacity 2025-08 P01,0.0,True
+optimal,Plant capacity 2025-08 P02,0.0,True
+optimal,DC throughput 2025-08 DC01,0.0,True
+optimal,DC throughput 2025-08 DC02,0.0,True
+optimal,DC throughput 2025-08 DC03,0.0,True
+optimal,DC throughput 2025-08 DC04,0.0,True
+optimal,DC throughput 2025-08 DC05,0.0,True
+optimal,DC throughput 2025-08 DC06,0.0,True
+optimal,Demand 2025-09 Z01,0.0,True
+optimal,Demand 2025-09 Z02,0.0,True
+optimal,Demand 2025-09 Z03,0.0,True
+optimal,Demand 2025-09 Z04,0.0,True
+optimal,Demand 2025-09 Z05,0.0,True
+optimal,Demand 2025-09 Z06,0.0,True
+optimal,Demand 2025-09 Z07,0.0,True
+optimal,Demand 2025-09 Z08,0.0,True
+optimal,Demand 2025-09 Z09,0.0,True
+optimal,Demand 2025-09 Z10,0.0,True
+optimal,Demand 2025-09 Z11,0.0,True
+optimal,Demand 2025-09 Z12,0.0,True
+optimal,Plant capacity 2025-09 P01,0.0,True
+optimal,Plant capacity 2025-09 P02,0.0,True
+optimal,DC throughput 2025-09 DC01,0.0,True
+optimal,DC throughput 2025-09 DC02,0.0,True
+optimal,DC throughput 2025-09 DC03,0.0,True
+optimal,DC throughput 2025-09 DC04,0.0,True
+optimal,DC throughput 2025-09 DC05,0.0,True
+optimal,DC throughput 2025-09 DC06,0.0,True
+optimal,Demand 2025-10 Z01,0.0,True
+optimal,Demand 2025-10 Z02,0.0,True
+optimal,Demand 2025-10 Z03,0.0,True
+optimal,Demand 2025-10 Z04,0.0,True
+optimal,Demand 2025-10 Z05,0.0,True
+optimal,Demand 2025-10 Z06,0.0,True
+optimal,Demand 2025-10 Z07,0.0,True
+optimal,Demand 2025-10 Z08,0.0,True
+optimal,Demand 2025-10 Z09,0.0,True
+optimal,Demand 2025-10 Z10,0.0,True
+optimal,Demand 2025-10 Z11,0.0,True
+optimal,Demand 2025-10 Z12,0.0,True
+optimal,Plant capacity 2025-10 P01,0.0,True
+optimal,Plant capacity 2025-10 P02,0.0,True
+optimal,DC throughput 2025-10 DC01,0.0,True
+optimal,DC throughput 2025-10 DC02,0.0,True
+optimal,DC throughput 2025-10 DC03,0.0,True
+optimal,DC throughput 2025-10 DC04,0.0,True
+optimal,DC throughput 2025-10 DC05,0.0,True
+optimal,DC throughput 2025-10 DC06,0.0,True
+optimal,Demand 2025-11 Z01,0.0,True
+optimal,Demand 2025-11 Z02,0.0,True
+optimal,Demand 2025-11 Z03,0.0,True
+optimal,Demand 2025-11 Z04,0.0,True
+optimal,Demand 2025-11 Z05,0.0,True
+optimal,Demand 2025-11 Z06,0.0,True
+optimal,Demand 2025-11 Z07,0.0,True
+optimal,Demand 2025-11 Z08,0.0,True
+optimal,Demand 2025-11 Z09,0.0,True
+optimal,Demand 2025-11 Z10,0.0,True
+optimal,Demand 2025-11 Z11,0.0,True
+optimal,Demand 2025-11 Z12,0.0,True
+optimal,Plant capacity 2025-11 P01,0.0,True
+optimal,Plant capacity 2025-11 P02,0.0,True
+optimal,DC throughput 2025-11 DC01,0.0,True
+optimal,DC throughput 2025-11 DC02,0.0,True
+optimal,DC throughput 2025-11 DC03,0.0,True
+optimal,DC throughput 2025-11 DC04,0.0,True
+optimal,DC throughput 2025-11 DC05,0.0,True
+optimal,DC throughput 2025-11 DC06,0.0,True
+optimal,Demand 2025-12 Z01,0.0,True
+optimal,Demand 2025-12 Z02,0.0,True
+optimal,Demand 2025-12 Z03,0.0,True
+optimal,Demand 2025-12 Z04,0.0,True
+optimal,Demand 2025-12 Z05,0.0,True
+optimal,Demand 2025-12 Z06,0.0,True
+optimal,Demand 2025-12 Z07,0.0,True
+optimal,Demand 2025-12 Z08,0.0,True
+optimal,Demand 2025-12 Z09,0.0,True
+optimal,Demand 2025-12 Z10,0.0,True
+optimal,Demand 2025-12 Z11,0.0,True
+optimal,Demand 2025-12 Z12,0.0,True
+optimal,Plant capacity 2025-12 P01,0.0,True
+optimal,Plant capacity 2025-12 P02,0.0,True
+optimal,DC throughput 2025-12 DC01,0.0,True
+optimal,DC throughput 2025-12 DC02,0.0,True
+optimal,DC throughput 2025-12 DC03,0.0,True
+optimal,DC throughput 2025-12 DC04,0.0,True
+optimal,DC throughput 2025-12 DC05,0.0,True
+optimal,DC throughput 2025-12 DC06,0.0,True
+optimal,Path service feasibility,0.0,True
+optimal,DC binary residual,0.0,True
+optimal,No negative shipments,0.0,True
+baseline,Objective reconciliation PKR,0.0,True
+baseline,Demand 2025-01 Z01,0.0,True
+baseline,Demand 2025-01 Z02,0.0,True
+baseline,Demand 2025-01 Z03,0.0,True
+baseline,Demand 2025-01 Z04,0.0,True
+baseline,Demand 2025-01 Z05,0.0,True
+baseline,Demand 2025-01 Z06,0.0,True
+baseline,Demand 2025-01 Z07,0.0,True
+baseline,Demand 2025-01 Z08,0.0,True
+baseline,Demand 2025-01 Z09,0.0,True
+baseline,Demand 2025-01 Z10,0.0,True
+baseline,Demand 2025-01 Z11,0.0,True
+baseline,Demand 2025-01 Z12,0.0,True
+baseline,Plant capacity 2025-01 P01,0.0,True
+baseline,Plant capacity 2025-01 P02,0.0,True
+baseline,DC throughput 2025-01 DC01,0.0,True
+baseline,DC throughput 2025-01 DC02,0.0,True
+baseline,DC throughput 2025-01 DC03,0.0,True
+baseline,DC throughput 2025-01 DC04,7.275957614183426e-12,True
+baseline,DC throughput 2025-01 DC05,0.0,True
+baseline,DC throughput 2025-01 DC06,0.0,True
+baseline,Demand 2025-02 Z01,0.0,True
+baseline,Demand 2025-02 Z02,0.0,True
+baseline,Demand 2025-02 Z03,0.0,True
+baseline,Demand 2025-02 Z04,0.0,True
+baseline,Demand 2025-02 Z05,0.0,True
+baseline,Demand 2025-02 Z06,0.0,True
+baseline,Demand 2025-02 Z07,0.0,True
+baseline,Demand 2025-02 Z08,0.0,True
+baseline,Demand 2025-02 Z09,0.0,True
+baseline,Demand 2025-02 Z10,0.0,True
+baseline,Demand 2025-02 Z11,0.0,True
+baseline,Demand 2025-02 Z12,0.0,True
+baseline,Plant capacity 2025-02 P01,0.0,True
+baseline,Plant capacity 2025-02 P02,0.0,True
+baseline,DC throughput 2025-02 DC01,0.0,True
+baseline,DC throughput 2025-02 DC02,0.0,True
+baseline,DC throughput 2025-02 DC03,0.0,True
+baseline,DC throughput 2025-02 DC04,0.0,True
+baseline,DC throughput 2025-02 DC05,0.0,True
+baseline,DC throughput 2025-02 DC06,0.0,True
+baseline,Demand 2025-03 Z01,0.0,True
+baseline,Demand 2025-03 Z02,0.0,True
+baseline,Demand 2025-03 Z03,0.0,True
+baseline,Demand 2025-03 Z04,0.0,True
+baseline,Demand 2025-03 Z05,0.0,True
+baseline,Demand 2025-03 Z06,0.0,True
+baseline,Demand 2025-03 Z07,0.0,True
+baseline,Demand 2025-03 Z08,0.0,True
+baseline,Demand 2025-03 Z09,0.0,True
+baseline,Demand 2025-03 Z10,0.0,True
+baseline,Demand 2025-03 Z11,0.0,True
+baseline,Demand 2025-03 Z12,0.0,True
+baseline,Plant capacity 2025-03 P01,0.0,True
+baseline,Plant capacity 2025-03 P02,0.0,True
+baseline,DC throughput 2025-03 DC01,0.0,True
+baseline,DC throughput 2025-03 DC02,0.0,True
+baseline,DC throughput 2025-03 DC03,0.0,True
+baseline,DC throughput 2025-03 DC04,0.0,True
+baseline,DC throughput 2025-03 DC05,0.0,True
+baseline,DC throughput 2025-03 DC06,0.0,True
+baseline,Demand 2025-04 Z01,0.0,True
+baseline,Demand 2025-04 Z02,0.0,True
+baseline,Demand 2025-04 Z03,0.0,True
+baseline,Demand 2025-04 Z04,0.0,True
+baseline,Demand 2025-04 Z05,0.0,True
+baseline,Demand 2025-04 Z06,0.0,True
+baseline,Demand 2025-04 Z07,0.0,True
+baseline,Demand 2025-04 Z08,0.0,True
+baseline,Demand 2025-04 Z09,0.0,True
+baseline,Demand 2025-04 Z10,0.0,True
+baseline,Demand 2025-04 Z11,0.0,True
+baseline,Demand 2025-04 Z12,0.0,True
+baseline,Plant capacity 2025-04 P01,0.0,True
+baseline,Plant capacity 2025-04 P02,0.0,True
+baseline,DC throughput 2025-04 DC01,0.0,True
+baseline,DC throughput 2025-04 DC02,0.0,True
+baseline,DC throughput 2025-04 DC03,0.0,True
+baseline,DC throughput 2025-04 DC04,0.0,True
+baseline,DC throughput 2025-04 DC05,0.0,True
+baseline,DC throughput 2025-04 DC06,0.0,True
+baseline,Demand 2025-05 Z01,0.0,True
+baseline,Demand 2025-05 Z02,0.0,True
+baseline,Demand 2025-05 Z03,0.0,True
+baseline,Demand 2025-05 Z04,0.0,True
+baseline,Demand 2025-05 Z05,0.0,True
+baseline,Demand 2025-05 Z06,0.0,True
+baseline,Demand 2025-05 Z07,0.0,True
+baseline,Demand 2025-05 Z08,0.0,True
+baseline,Demand 2025-05 Z09,0.0,True
+baseline,Demand 2025-05 Z10,0.0,True
+baseline,Demand 2025-05 Z11,0.0,True
+baseline,Demand 2025-05 Z12,0.0,True
+baseline,Plant capacity 2025-05 P01,0.0,True
+baseline,Plant capacity 2025-05 P02,0.0,True
+baseline,DC throughput 2025-05 DC01,0.0,True
+baseline,DC throughput 2025-05 DC02,0.0,True
+baseline,DC throughput 2025-05 DC03,0.0,True
+baseline,DC throughput 2025-05 DC04,0.0,True
+baseline,DC throughput 2025-05 DC05,0.0,True
+baseline,DC throughput 2025-05 DC06,0.0,True
+baseline,Demand 2025-06 Z01,0.0,True
+baseline,Demand 2025-06 Z02,0.0,True
+baseline,Demand 2025-06 Z03,0.0,True
+baseline,Demand 2025-06 Z04,0.0,True
+baseline,Demand 2025-06 Z05,0.0,True
+baseline,Demand 2025-06 Z06,0.0,True
+baseline,Demand 2025-06 Z07,0.0,True
+baseline,Demand 2025-06 Z08,0.0,True
+baseline,Demand 2025-06 Z09,0.0,True
+baseline,Demand 2025-06 Z10,0.0,True
+baseline,Demand 2025-06 Z11,0.0,True
+baseline,Demand 2025-06 Z12,0.0,True
+baseline,Plant capacity 2025-06 P01,0.0,True
+baseline,Plant capacity 2025-06 P02,0.0,True
+baseline,DC throughput 2025-06 DC01,0.0,True
+baseline,DC throughput 2025-06 DC02,0.0,True
+baseline,DC throughput 2025-06 DC03,0.0,True
+baseline,DC throughput 2025-06 DC04,0.0,True
+baseline,DC throughput 2025-06 DC05,0.0,True
+baseline,DC throughput 2025-06 DC06,0.0,True
+baseline,Demand 2025-07 Z01,0.0,True
+baseline,Demand 2025-07 Z02,0.0,True
+baseline,Demand 2025-07 Z03,0.0,True
+baseline,Demand 2025-07 Z04,0.0,True
+baseline,Demand 2025-07 Z05,0.0,True
+baseline,Demand 2025-07 Z06,0.0,True
+baseline,Demand 2025-07 Z07,0.0,True
+baseline,Demand 2025-07 Z08,0.0,True
+baseline,Demand 2025-07 Z09,0.0,True
+baseline,Demand 2025-07 Z10,0.0,True
+baseline,Demand 2025-07 Z11,0.0,True
+baseline,Demand 2025-07 Z12,0.0,True
+baseline,Plant capacity 2025-07 P01,0.0,True
+baseline,Plant capacity 2025-07 P02,0.0,True
+baseline,DC throughput 2025-07 DC01,0.0,True
+baseline,DC throughput 2025-07 DC02,0.0,True
+baseline,DC throughput 2025-07 DC03,0.0,True
+baseline,DC throughput 2025-07 DC04,0.0,True
+baseline,DC throughput 2025-07 DC05,0.0,True
+baseline,DC throughput 2025-07 DC06,0.0,True
+baseline,Demand 2025-08 Z01,0.0,True
+baseline,Demand 2025-08 Z02,0.0,True
+baseline,Demand 2025-08 Z03,0.0,True
+baseline,Demand 2025-08 Z04,0.0,True
+baseline,Demand 2025-08 Z05,0.0,True
+baseline,Demand 2025-08 Z06,0.0,True
+baseline,Demand 2025-08 Z07,0.0,True
+baseline,Demand 2025-08 Z08,0.0,True
+baseline,Demand 2025-08 Z09,0.0,True
+baseline,Demand 2025-08 Z10,0.0,True
+baseline,Demand 2025-08 Z11,0.0,True
+baseline,Demand 2025-08 Z12,0.0,True
+baseline,Plant capacity 2025-08 P01,0.0,True
+baseline,Plant capacity 2025-08 P02,0.0,True
+baseline,DC throughput 2025-08 DC01,0.0,True
+baseline,DC throughput 2025-08 DC02,0.0,True
+baseline,DC throughput 2025-08 DC03,0.0,True
+baseline,DC throughput 2025-08 DC04,0.0,True
+baseline,DC throughput 2025-08 DC05,0.0,True
+baseline,DC throughput 2025-08 DC06,0.0,True
+baseline,Demand 2025-09 Z01,0.0,True
+baseline,Demand 2025-09 Z02,0.0,True
+baseline,Demand 2025-09 Z03,0.0,True
+baseline,Demand 2025-09 Z04,0.0,True
+baseline,Demand 2025-09 Z05,0.0,True
+baseline,Demand 2025-09 Z06,0.0,True
+baseline,Demand 2025-09 Z07,0.0,True
+baseline,Demand 2025-09 Z08,0.0,True
+baseline,Demand 2025-09 Z09,0.0,True
+baseline,Demand 2025-09 Z10,0.0,True
+baseline,Demand 2025-09 Z11,0.0,True
+baseline,Demand 2025-09 Z12,0.0,True
+baseline,Plant capacity 2025-09 P01,0.0,True
+baseline,Plant capacity 2025-09 P02,0.0,True
+baseline,DC throughput 2025-09 DC01,0.0,True
+baseline,DC throughput 2025-09 DC02,0.0,True
+baseline,DC throughput 2025-09 DC03,0.0,True
+baseline,DC throughput 2025-09 DC04,0.0,True
+baseline,DC throughput 2025-09 DC05,0.0,True
+baseline,DC throughput 2025-09 DC06,0.0,True
+baseline,Demand 2025-10 Z01,0.0,True
+baseline,Demand 2025-10 Z02,0.0,True
+baseline,Demand 2025-10 Z03,0.0,True
+baseline,Demand 2025-10 Z04,0.0,True
+baseline,Demand 2025-10 Z05,0.0,True
+baseline,Demand 2025-10 Z06,0.0,True
+baseline,Demand 2025-10 Z07,0.0,True
+baseline,Demand 2025-10 Z08,0.0,True
+baseline,Demand 2025-10 Z09,0.0,True
+baseline,Demand 2025-10 Z10,0.0,True
+baseline,Demand 2025-10 Z11,0.0,True
+baseline,Demand 2025-10 Z12,0.0,True
+baseline,Plant capacity 2025-10 P01,0.0,True
+baseline,Plant capacity 2025-10 P02,0.0,True
+baseline,DC throughput 2025-10 DC01,0.0,True
+baseline,DC throughput 2025-10 DC02,0.0,True
+baseline,DC throughput 2025-10 DC03,0.0,True
+baseline,DC throughput 2025-10 DC04,0.0,True
+baseline,DC throughput 2025-10 DC05,0.0,True
+baseline,DC throughput 2025-10 DC06,0.0,True
+baseline,Demand 2025-11 Z01,0.0,True
+baseline,Demand 2025-11 Z02,0.0,True
+baseline,Demand 2025-11 Z03,0.0,True
+baseline,Demand 2025-11 Z04,0.0,True
+baseline,Demand 2025-11 Z05,0.0,True
+baseline,Demand 2025-11 Z06,0.0,True
+baseline,Demand 2025-11 Z07,0.0,True
+baseline,Demand 2025-11 Z08,0.0,True
+baseline,Demand 2025-11 Z09,0.0,True
+baseline,Demand 2025-11 Z10,0.0,True
+baseline,Demand 2025-11 Z11,0.0,True
+baseline,Demand 2025-11 Z12,0.0,True
+baseline,Plant capacity 2025-11 P01,0.0,True
+baseline,Plant capacity 2025-11 P02,0.0,True
+baseline,DC throughput 2025-11 DC01,0.0,True
+baseline,DC throughput 2025-11 DC02,0.0,True
+baseline,DC throughput 2025-11 DC03,0.0,True
+baseline,DC throughput 2025-11 DC04,0.0,True
+baseline,DC throughput 2025-11 DC05,0.0,True
+baseline,DC throughput 2025-11 DC06,0.0,True
+baseline,Demand 2025-12 Z01,0.0,True
+baseline,Demand 2025-12 Z02,0.0,True
+baseline,Demand 2025-12 Z03,0.0,True
+baseline,Demand 2025-12 Z04,0.0,True
+baseline,Demand 2025-12 Z05,0.0,True
+baseline,Demand 2025-12 Z06,0.0,True
+baseline,Demand 2025-12 Z07,0.0,True
+baseline,Demand 2025-12 Z08,0.0,True
+baseline,Demand 2025-12 Z09,0.0,True
+baseline,Demand 2025-12 Z10,0.0,True
+baseline,Demand 2025-12 Z11,0.0,True
+baseline,Demand 2025-12 Z12,0.0,True
+baseline,Plant capacity 2025-12 P01,0.0,True
+baseline,Plant capacity 2025-12 P02,0.0,True
+baseline,DC throughput 2025-12 DC01,0.0,True
+baseline,DC throughput 2025-12 DC02,0.0,True
+baseline,DC throughput 2025-12 DC03,0.0,True
+baseline,DC throughput 2025-12 DC04,0.0,True
+baseline,DC throughput 2025-12 DC05,0.0,True
+baseline,DC throughput 2025-12 DC06,0.0,True
+baseline,Path service feasibility,0.0,True
+baseline,DC binary residual,0.0,True
+baseline,No negative shipments,0.0,True

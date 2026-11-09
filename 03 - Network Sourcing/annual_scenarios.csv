@@ -1,0 +1,8 @@
+scenario_id,scenario,status,cost_PKR,demand_tonnes,selected_DCs,audit,tag,method_or_source
+S00,Base case,OPTIMAL,6238355240.9924,1729464.75,"DC01,DC02,DC03,DC04,DC05",PASS,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S01,Fuel shock,OPTIMAL,8001540845.16512,1729464.75,"DC01,DC02,DC03,DC04,DC05",PASS,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S02,Demand growth,INFEASIBLE,,1988884.4625,,NOT_APPLICABLE,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S03,Demand contraction,OPTIMAL,5251481454.621155,1470045.0374999999,"DC01,DC02,DC03,DC04,DC05",PASS,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S04,Single plant outage,INFEASIBLE,,1729464.75,,NOT_APPLICABLE,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S05,Service tightening,OPTIMAL,6243532415.2278,1729464.75,"DC01,DC02,DC03,DC04,DC05",PASS,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios
+S06,Warehouse inflation,OPTIMAL,6252875240.9924,1729464.75,"DC01,DC02,DC03,DC04,DC05",PASS,[DERIVED],12-month fixed-opening MILP; Phase 3 assumed scenarios

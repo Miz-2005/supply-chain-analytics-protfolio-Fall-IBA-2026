@@ -1,0 +1,21 @@
+node_id,name,type,city,lat,lon,status,tag,method_or_source,verification
+P01,Base Plant,plant,Daharki,28.02,69.11,verified production site,[ASSUMED],"PACRA July 2026 plant capacity (Phase 1); city coordinates approximate [ASSUMED], require geocoding",plant verified; coordinate unverified
+P02,EnVen Plant,plant,Daharki,28.02,69.11,verified production site,[ASSUMED],"PACRA July 2026 plant capacity (Phase 1); city coordinates approximate [ASSUMED], require geocoding",plant verified; coordinate unverified
+DC01,Sukkur candidate DC,dc,Sukkur,27.71,68.84,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+DC02,Hyderabad candidate DC,dc,Hyderabad,25.4,68.36,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+DC03,Rahim Yar Khan candidate DC,dc,Rahim Yar Khan,28.42,70.3,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+DC04,Multan candidate DC,dc,Multan,30.2,71.47,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+DC05,Faisalabad candidate DC,dc,Faisalabad,31.42,73.08,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+DC06,Lahore candidate DC,dc,Lahore,31.55,74.34,candidate only,[ASSUMED],Phase 2 approved city; approximate centre coordinates,not site-verified
+Z01,Sukkur demand zone,zone,Sukkur,27.71,68.84,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z02,Larkana demand zone,zone,Larkana,27.56,68.21,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z03,Nawabshah demand zone,zone,Nawabshah,26.25,68.41,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z04,Hyderabad demand zone,zone,Hyderabad,25.4,68.36,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z05,Mirpur Khas demand zone,zone,Mirpur Khas,25.53,69.01,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z06,Rahim Yar Khan demand zone,zone,Rahim Yar Khan,28.42,70.3,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z07,Bahawalpur demand zone,zone,Bahawalpur,29.4,71.68,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z08,Multan demand zone,zone,Multan,30.2,71.47,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z09,Dera Ghazi Khan demand zone,zone,Dera Ghazi Khan,30.05,70.64,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z10,Sahiwal demand zone,zone,Sahiwal,30.67,73.11,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z11,Faisalabad demand zone,zone,Faisalabad,31.42,73.08,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified
+Z12,Lahore demand zone,zone,Lahore,31.55,74.34,synthetic zone centre,[ASSUMED],Phase 2 zone centre; approximate city coordinate,zone boundaries unverified

@@ -1,0 +1,3 @@
+plant_id,plant_name,capacity_per_month,variable_cost_per_unit,minimum_commitment,unit,tag,method_or_source,low,high,verification
+P01,Base Plant,81250.0,0,0,tonnes/month,[DERIVED],"PACRA annual nameplate / 12; zero production cost is excluded constant, NOT a true cost",81250.0,81250.0,capacity verified; monthly availability assumed
+P02,EnVen Plant,108333.33,0,0,tonnes/month,[DERIVED],"PACRA annual nameplate / 12; zero production cost is excluded constant, NOT a true cost",108333.33,108333.33,capacity verified; monthly availability assumed

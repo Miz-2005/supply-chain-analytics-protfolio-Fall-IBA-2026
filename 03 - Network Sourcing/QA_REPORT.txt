@@ -1,0 +1,24 @@
+EFERT Phase 5 HTML QA Report
+=============================
+Source: EFERT_Phase4_Complete_Python.zip (annual joint MILP outputs)
+
+Automated checks:
+- HTML includes all six page sections and mandatory disclaimer: PASS
+- Annual optimal cost equals sum of 12 monthly costs: PASS
+- Savings equal baseline less optimum: PASS
+- Six stress scenarios plus base present: PASS
+- Five sensitivity parameters x five levels present: PASS
+- Annual model leg-flow records: 287, included: PASS
+- Input provenance derived from actual source CSV row tags: PASS
+- Numerical audit rows present: 488
+- JavaScript syntax (Node.js): PASS
+- Headless Chromium DOM smoke test: PASS
+- All six navigation sections and interactive map rendering: PASS
+- Network filter interaction (June 2025 / DC03): PASS
+- Scenario table 7 rows, sensitivity 5 rows, provenance table 10 rows: PASS
+- No uncaught JavaScript errors in Chromium smoke test: PASS
+
+Browser note: Chromium test used page.set_content because this execution environment blocks navigation to local file and localhost URLs. User should verify direct double-click opening on their own machine. No external dependencies are referenced in the HTML.
+
+Interpretation:
+These checks verify dashboard wiring and numerical consistency with the previously generated Python model. They do not validate the assumed input parameters or company-specific real-world accuracy.

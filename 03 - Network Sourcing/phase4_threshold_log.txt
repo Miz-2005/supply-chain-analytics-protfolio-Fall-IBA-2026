@@ -1,0 +1,26 @@
+[
+  {
+    "parameter": "demand",
+    "threshold_type": "4-to-5 DC selection transition (approx)",
+    "multiplier": 0.7774719238281249,
+    "interpretation": "Below threshold fewer DCs can be cost-optimal"
+  },
+  {
+    "parameter": "capacity",
+    "threshold_type": "6-to-5 DC selection transition (approx)",
+    "multiplier": 0.9673980712890625,
+    "interpretation": "Lower DC capacity can force opening the sixth DC"
+  },
+  {
+    "parameter": "demand",
+    "threshold_type": "maximum feasible demand (approx)",
+    "multiplier": 1.119833374023437,
+    "interpretation": "Above threshold plant or DC capacity insufficient"
+  },
+  {
+    "parameter": "capacity",
+    "threshold_type": "minimum feasible DC throughput multiplier (approx)",
+    "multiplier": 0.8061737060546874,
+    "interpretation": "Below threshold combined DC throughput insufficient"
+  }
+]

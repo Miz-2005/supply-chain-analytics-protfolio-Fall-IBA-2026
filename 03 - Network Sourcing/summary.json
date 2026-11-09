@@ -1,0 +1,53 @@
+{
+  "model": "Path-indexed 12-month fixed-open MILP",
+  "solver": "SciPy HiGHS milp",
+  "independent_method": "Exhaustive 63 subsets with independent fixed-open HiGHS LP",
+  "independent_feasible_subsets": 7,
+  "independent_optimum_PKR": 6238355240.992399,
+  "independent_open_DCs": [
+    "DC01",
+    "DC02",
+    "DC03",
+    "DC04",
+    "DC05"
+  ],
+  "independent_gap_PKR": 9.5367431640625e-07,
+  "baseline_definition": "Illustrative as-is: all six candidate DCs leased for 12 months, with minimum freight-and-handling flow assignment subject to service/capacity; NOT actual EFERT as-is. This is a relaxed nearest-cost-feasible benchmark, not strict single-zone nearest assignment.",
+  "baseline_PKR": 6261315025.9967,
+  "optimal_PKR": 6238355240.9924,
+  "savings_PKR": 22959785.004300117,
+  "savings_pct": 0.36669269808294447,
+  "annual_tonnes": 1729464.75,
+  "open_DCs": [
+    "DC01",
+    "DC02",
+    "DC03",
+    "DC04",
+    "DC05"
+  ],
+  "cost_components_PKR": {
+    "variable_PKR": 6093468440.992399,
+    "fixed_PKR": 58080000.0,
+    "inventory_PKR": 86806800.0
+  },
+  "audit": {
+    "optimal": {
+      "passed": 244,
+      "total": 244
+    },
+    "baseline": {
+      "passed": 244,
+      "total": 244
+    }
+  },
+  "inventory_method": "Provisional DC safety stock and monthly holding rate included as fixed reserve per opened DC. No physical inventory storage-capacity constraint because throughput capacity is not storage capacity; no dynamic stock-flow or reorder-point balance.",
+  "provenance": "[DERIVED] from Phase 3 synthetic and assumed inputs, not company operating results",
+  "limitations": [
+    "Synthetic inventory model requires instructor acceptance",
+    "Warehouse throughput capacity is not storage capacity",
+    "Freight routes are circuity estimates, not verified truck lanes",
+    "All six baseline DC leases are a counterfactual assumption, not observed EFERT current network",
+    "Production costs excluded equally from both alternatives",
+    "36 months of history; 12 months (2025) used for decision horizon"
+  ]
+}

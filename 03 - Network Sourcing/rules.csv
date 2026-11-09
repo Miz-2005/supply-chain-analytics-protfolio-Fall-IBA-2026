@@ -1,0 +1,5 @@
+rule_id,rule_type,description,parameter,value,unit,tag,method_or_source,low,high,verification
+R01,max_open_dcs,No more than 6 candidate DCs,max_open,6,DCs,[ASSUMED],Phase 2 candidate count,3,6,proposed
+R02,demand_satisfaction,All monthly demand must be served,demand_coverage,1,fraction,[ASSUMED],Model design requirement,1,1,proposed
+R03,no_forced_contracts,No invented take-or-pay commitments,minimum_contract,0,tonnes,[ASSUMED],No EFERT contractual evidence,0,0,proposed
+R04,capacity_limit,Each candidate DC capped monthly,dc_capacity,35000,tonnes/month,[ASSUMED],Illustrative 35kt per DC,25000,45000,proposed

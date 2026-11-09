@@ -1,0 +1,5 @@
+parameter,threshold_type,multiplier,interpretation,tag
+demand,4-to-5 DC selection transition (approx),0.7774719238281249,Below threshold fewer DCs can be cost-optimal,[DERIVED]
+capacity,6-to-5 DC selection transition (approx),0.9673980712890625,Lower DC capacity can force opening the sixth DC,[DERIVED]
+demand,maximum feasible demand (approx),1.119833374023437,Above threshold plant or DC capacity insufficient,[DERIVED]
+capacity,minimum feasible DC throughput multiplier (approx),0.8061737060546874,Below threshold combined DC throughput insufficient,[DERIVED]
